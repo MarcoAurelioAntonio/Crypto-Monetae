@@ -2,7 +2,7 @@
 
 .navbar {
   display: flex;
-  height: 90px;
+  height: 80px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -16,13 +16,14 @@
   padding: 30px;
   column-gap: 10px;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .setting-bell-section {
   display: flex;
   align-items: center;
-  column-gap: 10px;
-  padding: 30px;
+  column-gap: 30px;
+  padding: 50px;
 }
 
 .bell {
@@ -36,9 +37,12 @@
 }
 
 .monetae {
-  font-size: 50px;
+  font-size: 53px;
   color: goldenrod;
   margin-bottom: 15px;
   font-family: 'Viaoda Libre', cursive;
   font-weight: bolder;
+  border-bottom: none;
+  font-variant: small-caps;
+  margin-left: -10px;
 }
