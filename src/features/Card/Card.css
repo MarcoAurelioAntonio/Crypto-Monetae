@@ -1,0 +1,40 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: auto;
+  color: white;
+  padding: 10px;
+  background-color: rgb(100, 100, 255);
+  margin: 7px;
+  border-radius: 10px;
+}
+
+.card-container:nth-child(even) {
+  background-color: rgb(100, 140, 255);
+}
+
+.card-container:hover {
+  scale: 1.01;
+  background-color: rgb(100, 100, 230);
+}
+
+.icon-div {
+  width: 50px;
+}
+
+.rotate:hover {
+  animation: rotation 0.5s linear;
+  cursor: pointer;
+}
+
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 700deg;
+  }
+}

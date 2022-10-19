@@ -1,0 +1,11 @@
+.main-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  background-image: url(../assets/board.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  padding-top: 20px;
+}
