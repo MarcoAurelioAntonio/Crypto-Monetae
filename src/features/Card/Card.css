@@ -20,8 +20,16 @@
   background-color: rgb(100, 150, 250);
 }
 
+.link {
+  text-decoration: none;
+}
+
 .icon-div {
+  display: flex;
+  align-items: center;
   width: 50px;
+  color: goldenrod;
+  font-size: 30px;
 }
 
 .rotate:hover {

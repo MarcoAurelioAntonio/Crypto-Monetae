@@ -10,8 +10,11 @@ export default function Card({ coins }) {
 
   return (
     <div key={id} className="card-container">
-      <Link to={id}>
-        <div className="icon-div"><img className="icon-div rotate" src={icon} alt="crypto" /></div>
+      <Link className="link" to={id}>
+        <div className="icon-div">
+          <img className="icon-div rotate" src={icon} alt="crypto" />
+          &#10095;
+        </div>
       </Link>
       <div>
         <p>
