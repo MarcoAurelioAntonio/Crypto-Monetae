@@ -1,39 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 .navbar {
+  opacity: 0.9;
   display: flex;
   height: 80px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #c5dcdc;
+  padding-bottom: 10px;
 }
 
 .logo-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
   column-gap: 10px;
   margin-top: 10px;
   text-decoration: none;
+  margin-left: 5%;
 }
 
 .setting-bell-section {
   display: flex;
   align-items: center;
   column-gap: 30px;
-  padding: 50px;
+  margin-right: 10%;
 }
 
 .bell {
   width: 30px;
   height: 30px;
+  margin-top: 10px;
 }
 
 .setting {
   width: 30px;
   height: 30px;
+  margin-top: 10px;
 }
 
 .monetae {
@@ -45,4 +49,23 @@
   border-bottom: none;
   font-variant: small-caps;
   margin-left: -10px;
+}
+
+@media (max-width: 600px) {
+  .monetae {
+    font-size: 40px;
+  }
+
+  .logo {
+    scale: 0.9;
+  }
+
+  .setting-bell-section {
+    column-gap: 20%;
+    margin-right: 6%;
+  }
+
+  .logo-section {
+    margin-left: 0;
+  }
 }

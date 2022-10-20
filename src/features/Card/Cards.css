@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+.main-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-image: url(../assets/board.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-top: 20px;
+}
+
+.search-box {
+  width: 40vw;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 30px;
+  color: rgb(2, 2, 193);
+  font-weight: 700;
+}
+
+.input-section {
+  width: 100vw;
+  height: 70px;
+  margin-top: 25px;
+}
+
+::placeholder {
+  color: rgb(100, 100, 255);
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.search-box:focus {
+  outline: none;
+  background-color: aliceblue;
+}
+
+@media (max-width: 600px) {
+  .search-box {
+    width: 70vw;
+  }
+}
