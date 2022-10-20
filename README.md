@@ -57,6 +57,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thank You [Microverse](www.microverse.org) team.
+- Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for use your [template](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) work for inspiration.
 - Thanks to everyone who will get time to check this code and suggest any [issues](https://github.com/MarcoAurelioAntonio/Crypto-Monetae/issues)
 
 ## License
