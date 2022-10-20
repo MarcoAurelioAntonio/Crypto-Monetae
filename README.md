@@ -2,7 +2,7 @@
 
 # Crypto-Monetae
 
-> 
+> This App created with React-redux and fetching data from a API of Crypto currencies.
 
 ## Tools & Technologies
 

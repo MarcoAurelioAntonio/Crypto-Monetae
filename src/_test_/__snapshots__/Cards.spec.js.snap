@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards page rendering 1`] = `
+<div
+  className="main-section"
+>
+  <div
+    className="input-section"
+  >
+    <input
+      className="search-box"
+      onChange={[Function]}
+      placeholder="Enter Crypto name"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
