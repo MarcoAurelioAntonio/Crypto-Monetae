@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 .navbar {
-  position: fixed;
+  opacity: 0.9;
   display: flex;
   height: 80px;
   width: 100%;
@@ -9,7 +9,6 @@
   align-items: center;
   background-color: #c5dcdc;
   padding-bottom: 10px;
-  z-index: 2;
 }
 
 .logo-section {
