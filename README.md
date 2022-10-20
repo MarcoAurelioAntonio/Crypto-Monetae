@@ -16,6 +16,9 @@
 - Eslint.
 - Stylelint.
 
+## Description in a video:
+[VIDEO](https://www.loom.com/share/54f3490a4e5c4f3f83508eccd0645a2e)
+
 ## Live Demo 
 
 [Click Me!](https://hilarious-buttercream-5cfeaa.netlify.app)
