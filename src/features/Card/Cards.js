@@ -20,12 +20,8 @@ export default function Cards() {
   );
 
   useEffect(() => {
-    if (searchItem.length === 0) {
-      dispatch(fetchCoinsAsync());
-    }
-  }, []);
-
-  console.log(coinsData);
+    dispatch(fetchCoinsAsync());
+  }, [dispatch]);
 
   return (
     <div className="main-section">
