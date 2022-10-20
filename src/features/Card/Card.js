@@ -1,16 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Card.css';
-/* import { Link } from 'react-router-dom'; */
+import { Link } from 'react-router-dom';
 
 export default function Card({ coins }) {
   const {
-    icon, name, symbol, rank, price,
+    id, icon, name, symbol, rank, price,
   } = coins;
 
   return (
-    <div className="card-container">
-      <div className="icon-div"><img className="icon-div rotate" src={icon} alt="crypto" /></div>
+    <div key={id} className="card-container">
+      <Link to={id}>
+        <div className="icon-div"><img className="icon-div rotate" src={icon} alt="crypto" /></div>
+      </Link>
       <div>
         <p>
           Ranking N
@@ -18,11 +20,12 @@ export default function Card({ coins }) {
           &nbsp;
           {rank}
         </p>
-        <h3>{name}</h3>
+        <h2><strong>{name}</strong></h2>
         <p>{symbol}</p>
         <p>
-          Price: $
-          {price.toFixed(2)}
+          Price: US
+          <strong>$</strong>
+          {price.toFixed(3)}
         </p>
       </div>
     </div>
@@ -31,7 +34,7 @@ export default function Card({ coins }) {
 
 Card.propTypes = {
   coins: PropTypes.shape({
-    /* id: PropTypes.string.isRequired, */
+    id: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     rank: PropTypes.string.isRequired,
