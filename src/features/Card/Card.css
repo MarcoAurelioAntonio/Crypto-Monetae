@@ -6,18 +6,18 @@
   max-height: 250px;
   color: white;
   padding: 10px;
-  background-color: rgb(130, 140, 255);
+  background-color: rgb(100, 100, 255);
   margin: 7px;
   border-radius: 10px;
 }
 
 .card-container:nth-child(even) {
-  background-color: rgb(150, 140, 255);
+  background-color: rgb(100, 140, 255);
 }
 
 .card-container:hover {
   scale: 1.01;
-  background-color: rgb(100, 150, 250);
+  background-color: rgb(100, 100, 230);
 }
 
 .icon-div {
