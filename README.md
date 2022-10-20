@@ -1,46 +1,64 @@
-# Getting Started with Create React App and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Crypto-Monetae
 
-## Available Scripts
+> 
 
-In the project directory, you can run:
+## Tools & Technologies
 
-### `npm start`
+- React.
+- Redux.
+- Redux Toolkit.
+- React Router.
+- React Hooks.
+- React Testing Library.
+- Jest.
+- Eslint.
+- Stylelint.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Click Me!](https://hilarious-buttercream-5cfeaa.netlify.app)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+```
+git clone https://github.com/MarcoAurelioAntonio/Crypto-Monetae.git
+cd crypto-currency
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pre-requisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- node.js
+- npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
+👤 Gustavo Porcilio
 
-### `npm run eject`
+- GitHub: [@MarcoAurelioAntonio](https://github.com/MarcoAurelioAntonio)
+- Twitter: [@gustavoporcilio](https://twitter.com/gustavoporcilio)
+- LinkedIn: [Gustavo Porcilio](https://www.linkedin.com/in/gustavo-porcilio-4496a223a/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues, and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to check the [issues page](../../issues/).
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
+
+- Thank You [Microverse](www.microverse.org) team.
+- Thanks to everyone who will get time to check this code and suggest any [issues](https://github.com/MarcoAurelioAntonio/Crypto-Monetae/issues)
+
+## License
+
+This project is [MIT](./LICENSE) licensed.
